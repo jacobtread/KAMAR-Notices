@@ -13,13 +13,13 @@ APP_PORTAL=YOUR_PORTAL_DOMAIN
 
 To download the required dependencies you must run:
 
-```shell
+```console
 $ npm install & php composer.phar install
 ```
 
 Then you must build the assets using the following command:
 
-```shell
+```console
 $ npm run dev
 ```
 
@@ -28,7 +28,7 @@ $ npm run dev
 To serve the site locally you can run the following command in the project directory
 
 ```console
-php artisan serve
+$ php artisan serve
 ```
 
 ### API
@@ -81,7 +81,7 @@ This will respond with a JSON result similar to this (Responses from KAMAR are c
 
 ### Clearing the cache
 To clear the cache which stores the KAMAR results you can type 
-```shell
+```console
 $ php artisan cache:clear
 ```
 
@@ -101,6 +101,6 @@ APP_DEBUG=false
 ```
 
 Then run the following command to build the production assets
-```shell
+```console
 $ npm run prod
 ```
