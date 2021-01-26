@@ -43,36 +43,22 @@ This will respond with a JSON result similar to this (Responses from KAMAR are c
 
 ```json
 {
-    //Whether or not this result is from the cache
     "cache": true,
-    // The date these results are for DAY-MONTH-YEAR
     "date": "28-02-2020",
-    // An array of all the notices 
     "notices": [
         {
-            // The place this meeting is held
             "place": "Example Place",
-            // The date this meeting is held
             "date": "2020-02-28",
-            // The time this meeting is held
             "time": "1pm",
-            // The level of user this is for
             "level": "All",
-            // The title/name of this notice
             "subject": "Example Meeting",
-            // The content/body of this notice
             "body": "This notice is an example meeting notice",
-            // The teacher who made this notice
             "teacher": "EXA"
         },
         {
-            // The level of user this is for
             "level": "All",
-            // The title/name of this notice
             "subject": "Example General",
-            // The content/body of this notice
             "body": "This notice is an example general notice",
-            // The teacher who made this notice
             "teacher": "EXA"
         }
     ]
